@@ -265,18 +265,19 @@
 
     .intro-container{
 margin-top: 58px;
+min-height: 100vh;
+padding-top: 5%;
     }
   
     .desc {
       padding: 0;
       text-align: center;
-      font-family: cursive;
       font-weight: 900;
       text-shadow: 2px 1px black;
   }
   
   .title {
-    background: -webkit-linear-gradient(rgb(129, 131, 3), rgb(51, 138, 109));
+    background: -webkit-linear-gradient(rgb(129, 131, 3), rgb(244, 204, 84));
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -419,7 +420,7 @@ margin-top: 58px;
   }
   
   hr{
-      background-color: aliceblue;
+      background-color: rgb(114, 171, 160);
       height: 10px;
       border: 1px solid rgb(248, 248, 170);
       border-radius: 10px;
