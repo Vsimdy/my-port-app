@@ -15,7 +15,7 @@ export default function Intro(){
           <div className="intro-container">
 
     <div className="desc">
-        <h1 className="title">FRONTEND DEVELOPER</h1>
+        <h3 className="title">FRONTEND DEVELOPER</h3>
     </div>
 
     <div className="intro">
