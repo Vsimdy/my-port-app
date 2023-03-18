@@ -9,7 +9,8 @@ export default function Project(){
 
     return(
         <>
-               <h3 className="project-header" id="projectId">PROJECTS</h3>
+        <div  id="projectId">
+               <h3 className="project-header">PROJECTS</h3>
 
             <div className="flex-container">
 
@@ -85,6 +86,7 @@ export default function Project(){
                 </p>
 
                 </div>
+            </div>
             </div>
         </>
     )

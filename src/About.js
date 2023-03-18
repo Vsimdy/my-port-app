@@ -4,8 +4,8 @@ import "./index.css";
 export default function About(){
     return(
         <>
-        
-          <div className="aboutcontainer" id="aboutId">
+        <div  id="aboutId">
+          <div className="aboutcontainer">
           <div id="fancy"></div>
             <div>
                 <h3> About Me <i class="bi bi-person-circle"></i></h3>
@@ -28,6 +28,7 @@ export default function About(){
             </div>
     
         </div>  
+        </div>
         </>
     )
 };

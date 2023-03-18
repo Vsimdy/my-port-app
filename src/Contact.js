@@ -4,7 +4,8 @@ export default function Contact(){
  
     return(
         <>
-           <div className="contactcontainer" id="contactId">
+        <div  id="contactId">
+           <div className="contactcontainer">
             <h3> <i class="bi bi-envelope-fill"></i> GET IN TOUCH</h3>
             
             <form method="post" action="https://formspree.io/f/xjvdrngv">
@@ -18,6 +19,7 @@ export default function Contact(){
                 <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <button type="submit">SEND</button>
             </form>
+        </div>
         </div>
  
         </>
